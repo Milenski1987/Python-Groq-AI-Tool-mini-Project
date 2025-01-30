@@ -1,5 +1,6 @@
 import groq
 
+
 # Initialize Groq API client
 client = groq.Client(api_key="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")
 
