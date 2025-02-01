@@ -5,15 +5,16 @@ import groq
 client = groq.Client(api_key="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")
 
 # Function to get AI response from Groq API
-def get_ai_response(user_input):
+def get_ai_response(current_user_input: str) -> str:
     try:
-        response = client.chat.completions.create(
+        current_response = client.chat.completions.create(
             model="llama3-8b-8192",
-            messages=[{"role": "user", "content": user_input}]
+            messages=[{"role": "user", "content": current_user_input}]
         )
-        return response.choices[0].message.content  # Corrected access
+        return current_response.choices[0].message.content  # Corrected access
     except Exception as e:
         return f"Error: {e}"
+
 
 # Main loop for user input
 if __name__ == "__main__":
