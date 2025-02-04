@@ -2,7 +2,6 @@ import groq
 
 
 # Initialize Groq API client
-my_api_key = "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"
 client = groq.Client(api_key=my_api_key)
 
 # Function to get AI response from Groq API
