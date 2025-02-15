@@ -18,7 +18,13 @@ Chatbot works with GroqAPI - way faster than others. All you need to do is:
 2️⃣ Navigate to your dashboard and generate an API key.  
 3️⃣ Copy the key (keep it secret 🤫) and replace "my_api_key" in the code.  
 
-The program still works in the user terminal, but GUI is on the list with future updates.
+___
+UPDATE! version 2.0
+* what's new:
+  - added basic GUI
+* what's next:
+  - feature to save caonversations with Chatbot
+  - improve GUI
 
 
 ---
