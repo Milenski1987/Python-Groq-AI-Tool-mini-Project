@@ -27,7 +27,7 @@ UPDATE! version 2.0
   - improve GUI
 
 
----asd
+---
 ## Technology stack:
 <p align="left">
   &emsp;
