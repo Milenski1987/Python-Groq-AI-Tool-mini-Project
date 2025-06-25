@@ -25,7 +25,7 @@ UPDATE! version 2.0
 * what's next:
   - feature to save caonversations with Chatbot
   - improve GUI
-dasd
+
 
 ---
 ## Technology stack:
