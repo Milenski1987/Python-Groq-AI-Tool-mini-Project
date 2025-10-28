@@ -2,7 +2,7 @@ from tkinter.constants import RAISED
 import groq
 import tkinter as tk
 
-123
+
 
 # Initialize Groq API client
 client = groq.Client(api_key="")
